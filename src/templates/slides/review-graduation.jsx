@@ -7,9 +7,9 @@ import ImageText from "../image-text";
 
 const info = {
 	capstoneDays: "20",
-	capstoneTeams: "4",
-	pullRequests: "75",
-	commits: "679",
+	capstoneTeams: "3",
+	pullRequests: "tbc.",
+	commits: "tbc.",
 };
 
 const Slide = () => (

@@ -14,13 +14,13 @@ const Slide = () => (
 			<List>
 				{timeTable.map(entry => (
 					<ListItem key={entry.time} component="li">
-						<NemoText>{entry.time}: </NemoText> {entry.text}
+						<NemoText>{entry.time} </NemoText> {entry.text}
 					</ListItem>
 				))}
 			</List>
 		}
 		title="Abschlussevent 🎓"
-		subtitle={`The Frogs:  ${course.city}-${course.discipline}-${course.year}-${course.instance}`}
+		subtitle={`🧜 ${course.city}-${course.discipline}-${course.year}-${course.instance}`}
 	/>
 );
 

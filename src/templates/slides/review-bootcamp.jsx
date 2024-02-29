@@ -11,9 +11,8 @@ const info = {
 	sessions: "59",
 	recapProjects: "6",
 	capstoneDays: "20",
-	capstoneTeams: "4",
-	gameRewards: "1337",
-	cities: "10",
+	capstoneTeams: "1",
+	gameRewards: "4711",
 };
 
 const Slide = () => (
@@ -25,9 +24,6 @@ const Slide = () => (
 					<NemoText>{info.students}</NemoText> Student*Innen
 				</ListItem>
 				<ListItem component="li">
-					<NemoText>{info.cities}</NemoText> Städte
-				</ListItem>
-				<ListItem component="li">
 					<NemoText>{info.days}</NemoText> Kurstage
 				</ListItem>
 				<ListItem component="li">
@@ -36,13 +32,10 @@ const Slide = () => (
 				<ListItem component="li">
 					<NemoText>{info.recapProjects}</NemoText> Recap Projects
 				</ListItem>
-				<ListItem component="li">
-					<NemoText>{info.gameRewards}</NemoText> 🏆
-				</ListItem>
 			</List>
 		}
 		title="Rückblick"
-		subtitle="The Frogs: Bootcamp Zahlen"
+		subtitle="🧜 Bootcamp Zahlen"
 	/>
 );
 
