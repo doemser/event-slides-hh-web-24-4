@@ -6,7 +6,7 @@ import bootcampImg from "../../ions/images/bootcamp.jpg";
 import ImageText from "../image-text";
 
 const info = {
-	students: "16",
+	students: "11",
 	days: "60",
 	sessions: "59",
 	recapProjects: "6",

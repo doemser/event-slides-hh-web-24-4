@@ -2,14 +2,14 @@ import React from "react";
 import List from "../../atoms/list";
 import ListItem from "../../atoms/list-item";
 import NemoText from "../../atoms/nemo-text";
-import graduationImg from "../../ions/images/kermit_graduation.jpg";
+import graduationImg from "../../ions/images/mermaids_02.jpg";
 import ImageText from "../image-text";
 
 const info = {
-	capstoneDays: "20",
 	capstoneTeams: "3",
-	pullRequests: "tbc.",
-	commits: "tbc.",
+	capstoneDays: "20",
+	pullRequests: "58",
+	commits: "497",
 };
 
 const Slide = () => (
@@ -32,7 +32,7 @@ const Slide = () => (
 			</List>
 		}
 		title="Rückblick"
-		subtitle="The Frogs: Capstone Zahlen"
+		subtitle="🧜 Capstone Zahlen"
 	/>
 );
 
