@@ -13,13 +13,13 @@ const students = [
 		// Optional
 		ci: {
 			// Optional, used to fill the gap around the notch on certain devices
-			themeColor: "#fff",
+			themeColor: "#edae49",
 			// Optional, used for color-swatches on the slide
 			colors: {
 				// Keys can have any name
-				primary: "#fff",
-				secondary: "#4476ae",
-				// foo: "#ff0000",
+				primary: "#edae49",
+				secondary: "#fceccc",
+				foo: "#168473",
 				// bar: "#00ff00",
 				// baz: "#0000ff",
 			},
@@ -51,13 +51,13 @@ const students = [
 		// Optional
 		ci: {
 			// Optional, used to fill the gap around the notch on certain devices
-			themeColor: "#fff",
+			themeColor: "#fefcf4",
 			// Optional, used for color-swatches on the slide
 			colors: {
 				// Keys can have any name
-				primary: "#fff",
-				secondary: "#448cff",
-				foo: "#ffa573",
+				primary: "#fefcf4",
+				secondary: "#5531c8",
+				//foo: "#ffa573",
 				// bar: "#00ff00",
 				// baz: "#0000ff",
 			},
@@ -69,7 +69,7 @@ const students = [
 	},
 	{
 		// The ID is used to find images and videos
-		id: "e",
+		id: "event",
 		// Name displayed on slide
 		app: "E",
 		name: ["Edona, ", "Jessica, ", "Than"],
@@ -84,10 +84,9 @@ const students = [
 			// Optional, used for color-swatches on the slide
 			colors: {
 				// Keys can have any name
-				primary: "#fff",
-				secondary: "#6a986f",
-				foo: "#0c3c2e",
-				bar: "#ffb901",
+				primary: "#fdf9f7",
+				secondary: "#5e5e5e",
+				foo: "#c082d3",
 				// baz: "#0000ff",
 			},
 		},
