@@ -1,6 +1,6 @@
 import React from "react";
 import Cover from "../cover";
 
-const Slide = () => <Cover title="Pitches" subtitle="der Absolvent*Innen" />;
+const Slide = () => <Cover title="Capstone Projects 🍿" subtitle="" />;
 
 export default Slide;

@@ -2,26 +2,21 @@ const students = [
 	{
 		// The ID is used to find images and videos
 		// ❗️
-		id: "shelfie",
+		id: "diy",
 		// Name displayed on slide
-		app: "Shelfie",
-		name: ["Anja, ", "Aytac, ", "Miriam, ", "Stella"],
+		app: "DIY.",
+		name: ["Charline, ", "Jana, ", "Oliver"],
 		// Optional, if set the Domain will be shown on the slide
 		// domain: "www.we-and.me",
 		// Will be printed as written here
-		techStack: ["react", "next.js", "Styled Components", "Framer Motion"],
+		techStack: ["react", "next.js", "Styled Components", "Fuse.js", "React-Toastify"],
 		// Optional
 		ci: {
-			// Optional, used to fill the gap around the notch on certain devices
-			themeColor: "#edae49",
-			// Optional, used for color-swatches on the slide
+			themeColor: "#f2f2f2",
 			colors: {
-				// Keys can have any name
-				primary: "#edae49",
-				secondary: "#fceccc",
-				foo: "#168473",
-				// bar: "#00ff00",
-				// baz: "#0000ff",
+				primary: "#f2f2f2",
+				secondary: "#282828",
+				foo: "#ddf22d",
 			},
 		},
 		commits: 21,
@@ -31,10 +26,10 @@ const students = [
 	},
 	{
 		// The ID is used to find images and videos
-		id: "budget_buddy",
+		id: "stranger_plants",
 		// Name displayed on slide
-		app: "Bugdet Buddy",
-		name: ["Eileen, ", "Nadine, ", "Sebastian, ", "Sophia"],
+		app: "Stranger Plants",
+		name: ["Fabian, ", "Henrik, ", "Ricado"],
 		// Optional, if set the Domain will be shown on the slide
 		//domain: "www.we-and.me",
 		// Will be printed as written here
@@ -46,19 +41,20 @@ const students = [
 			"Node.js",
 			"MongoDB Atlas",
 			"mongoose",
-			"Chart.js",
+			"Cloudinary",
+			"NextAuth.js",
 		],
 		// Optional
 		ci: {
 			// Optional, used to fill the gap around the notch on certain devices
-			themeColor: "#fefcf4",
+			themeColor: "#e3f5f5",
 			// Optional, used for color-swatches on the slide
 			colors: {
 				// Keys can have any name
-				primary: "#fefcf4",
-				secondary: "#5531c8",
-				//foo: "#ffa573",
-				// bar: "#00ff00",
+				primary: "#e3f5f5",
+				foo: "#ABD1C5",
+				secondary: "#A67C53",
+				bar: "#87CEEB",
 				// baz: "#0000ff",
 			},
 		},
@@ -69,24 +65,36 @@ const students = [
 	},
 	{
 		// The ID is used to find images and videos
-		id: "event",
+		id: "pocket-pets",
 		// Name displayed on slide
-		app: "E",
-		name: ["Edona, ", "Jessica, ", "Than"],
+		app: "Pocket Pets",
+		name: ["Krischan, ", "Marcus, ", "Nina"],
 		// Optional, if set the Domain will be shown on the slide
 		//domain: "www.we-and.me",
 		// Will be printed as written here
-		techStack: ["react", "next.js", "Styled Components", "ticketmaster API"],
+		techStack: [
+			"react",
+			"next.js",
+			"Styled Components",
+			"useSWR",
+			"Node.js",
+			"MongoDB Atlas",
+			"mongoose",
+			"zustand",
+			"NextAuth.js",
+			"kaboom.js",
+		],
 		// Optional
 		ci: {
 			// Optional, used to fill the gap around the notch on certain devices
-			themeColor: "#fff",
+			themeColor: "#D1C0B8",
 			// Optional, used for color-swatches on the slide
 			colors: {
 				// Keys can have any name
-				primary: "#fdf9f7",
-				secondary: "#5e5e5e",
-				foo: "#c082d3",
+				foo: "#F7F5F1",
+				primary: "#BC8B5E",
+				secondary: "#048080",
+
 				// baz: "#0000ff",
 			},
 		},

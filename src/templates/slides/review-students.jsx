@@ -5,7 +5,6 @@ const Slide = () => (
 	<Image
 		image={{ src: "/images/students.jpg" }}
 		alt="image of all students"
-		title="Rückblick"
 		objectFit="contain"
 	/>
 );

@@ -2,14 +2,14 @@ import React from "react";
 import List from "../../atoms/list";
 import ListItem from "../../atoms/list-item";
 import NemoText from "../../atoms/nemo-text";
-import graduationImg from "../../ions/images/mermaids_02.jpg";
+import graduationImg from "../../ions/images/graduation.jpg";
 import ImageText from "../image-text";
 
 const info = {
 	capstoneTeams: "3",
 	capstoneDays: "20",
-	pullRequests: "58",
-	commits: "497",
+	pullRequests: "97",
+	commits: "681",
 };
 
 const Slide = () => (
@@ -21,7 +21,7 @@ const Slide = () => (
 					<NemoText>{info.capstoneTeams}</NemoText> Capstone Teams
 				</ListItem>
 				<ListItem component="li">
-					<NemoText>{info.capstoneDays}</NemoText> Capstone Tage
+					<NemoText>{info.capstoneDays}</NemoText> Capstone Days
 				</ListItem>
 				<ListItem component="li">
 					<NemoText>{info.pullRequests}</NemoText> Git Hub Pull Requests
@@ -31,8 +31,8 @@ const Slide = () => (
 				</ListItem>
 			</List>
 		}
-		title="Rückblick"
-		subtitle="🧜 Capstone Zahlen"
+		title="Review"
+		subtitle="Capstone Numbers"
 	/>
 );
 

@@ -4,7 +4,7 @@ import ListItem from "../../atoms/list-item";
 import NemoText from "../../atoms/nemo-text";
 import Text from "../../atoms/text";
 import course from "../../ions/data/course";
-import welcomeImg from "../../ions/images/frogs.jpg";
+import welcomeImg from "../../ions/images/bootcamp.jpg";
 import ImageText from "../image-text";
 
 const Slide = () => (

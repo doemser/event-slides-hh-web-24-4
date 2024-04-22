@@ -2,17 +2,15 @@ import React from "react";
 import List from "../../atoms/list";
 import ListItem from "../../atoms/list-item";
 import NemoText from "../../atoms/nemo-text";
-import bootcampImg from "../../ions/images/bootcamp.jpg";
+import bootcampImg from "../../ions/images/graduation-2.jpg";
 import ImageText from "../image-text";
 
 const info = {
-	students: "11",
+	students: "9",
 	days: "60",
 	sessions: "59",
 	recapProjects: "6",
 	capstoneDays: "20",
-	capstoneTeams: "1",
-	gameRewards: "4711",
 };
 
 const Slide = () => (
@@ -21,7 +19,7 @@ const Slide = () => (
 		body={
 			<List>
 				<ListItem component="li">
-					<NemoText>{info.students}</NemoText> Student*Innen
+					<NemoText>{info.students}</NemoText> Student*Innen 🦭🦭🦭🦭
 				</ListItem>
 				<ListItem component="li">
 					<NemoText>{info.days}</NemoText> Kurstage
@@ -34,8 +32,8 @@ const Slide = () => (
 				</ListItem>
 			</List>
 		}
-		title="Rückblick"
-		subtitle="🧜 Bootcamp Zahlen"
+		title="Review"
+		subtitle="Kurs und Bootcamp Zahlen"
 	/>
 );
 
