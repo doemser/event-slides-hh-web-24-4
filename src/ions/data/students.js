@@ -9,7 +9,14 @@ const students = [
 		// Optional, if set the Domain will be shown on the slide
 		// domain: "www.we-and.me",
 		// Will be printed as written here
-		techStack: ["react", "next.js", "Styled Components", "Fuse.js", "React-Toastify"],
+		techStack: [
+			"react",
+			"next.js",
+			"Styled Components",
+			"Fuse.js",
+			"Cloudinary",
+			"React-Toastify",
+		],
 		// Optional
 		ci: {
 			themeColor: "#f2f2f2",
@@ -17,6 +24,7 @@ const students = [
 				primary: "#f2f2f2",
 				secondary: "#282828",
 				foo: "#ddf22d",
+				baz: "#FB4A5A",
 			},
 		},
 		commits: 21,
@@ -29,7 +37,7 @@ const students = [
 		id: "stranger_plants",
 		// Name displayed on slide
 		app: "Stranger Plants",
-		name: ["Fabian, ", "Henrik, ", "Ricado"],
+		name: ["Fabian, ", "Henrik, ", "Ricardo"],
 		// Optional, if set the Domain will be shown on the slide
 		//domain: "www.we-and.me",
 		// Will be printed as written here
@@ -43,11 +51,12 @@ const students = [
 			"mongoose",
 			"Cloudinary",
 			"NextAuth.js",
+			"React-Toastify",
 		],
 		// Optional
 		ci: {
 			// Optional, used to fill the gap around the notch on certain devices
-			themeColor: "#e3f5f5",
+			themeColor: "#FEFEFE",
 			// Optional, used for color-swatches on the slide
 			colors: {
 				// Keys can have any name
@@ -68,7 +77,7 @@ const students = [
 		id: "pocket-pets",
 		// Name displayed on slide
 		app: "Pocket Pets",
-		name: ["Krischan, ", "Marcus, ", "Nina"],
+		name: ["Krischan, ", "Markus, ", "Nina"],
 		// Optional, if set the Domain will be shown on the slide
 		//domain: "www.we-and.me",
 		// Will be printed as written here

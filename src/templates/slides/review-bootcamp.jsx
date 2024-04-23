@@ -19,10 +19,10 @@ const Slide = () => (
 		body={
 			<List>
 				<ListItem component="li">
-					<NemoText>{info.students}</NemoText> Student*Innen 🦭🦭🦭🦭
+					<NemoText>{info.students}</NemoText> Students 🦭🦭🦭🦭🦭🦭🦭🦭🦭
 				</ListItem>
 				<ListItem component="li">
-					<NemoText>{info.days}</NemoText> Kurstage
+					<NemoText>{info.days}</NemoText> Course days
 				</ListItem>
 				<ListItem component="li">
 					<NemoText>{info.sessions}</NemoText> Sessions
@@ -33,7 +33,7 @@ const Slide = () => (
 			</List>
 		}
 		title="Review"
-		subtitle="Kurs und Bootcamp Zahlen"
+		subtitle="Course and bootcamp numbers"
 	/>
 );
 

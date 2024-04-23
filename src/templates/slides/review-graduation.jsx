@@ -18,10 +18,10 @@ const Slide = () => (
 		body={
 			<List>
 				<ListItem component="li">
-					<NemoText>{info.capstoneTeams}</NemoText> Capstone Teams
+					<NemoText>{info.capstoneTeams}</NemoText> Capstone teams
 				</ListItem>
 				<ListItem component="li">
-					<NemoText>{info.capstoneDays}</NemoText> Capstone Days
+					<NemoText>{info.capstoneDays}</NemoText> Capstone days
 				</ListItem>
 				<ListItem component="li">
 					<NemoText>{info.pullRequests}</NemoText> Git Hub Pull Requests
