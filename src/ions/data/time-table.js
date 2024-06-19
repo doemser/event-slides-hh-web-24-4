@@ -1,14 +1,14 @@
 const timeTable = [
 	{
-		time: "14:05",
-		text: "Begrüßung und Laudatio der Coaches",
+		time: "11:00",
+		text: "Begrüßung und Laudatio von Merle",
 	},
 	{
-		time: "14:15",
+		time: "11:10",
 		text: "Pitches der Absolvent*Innen",
 	},
 	{
-		time: "15:15",
+		time: "11:50",
 		text: "Aftershow Party",
 	},
 ];

@@ -1,8 +1,8 @@
 const course = {
 	name: "Web Development",
-	city: "HH",
+	city: "FFM",
 	discipline: "WEB",
 	year: 23,
-	instance: 5,
+	instance: 6,
 };
 export default course;
