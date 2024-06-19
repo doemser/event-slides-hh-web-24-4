@@ -1,8 +1,6 @@
 import React from "react";
 import Cover from "../cover";
 
-export const Slide = () => (
-	<Cover title=" Final💘 Public Sprint Review" subtitle="course: hh-web-24-1 🦭" />
-);
+export const Slide = () => <Cover title="🐬 Dolphin Graduation 🐬" subtitle="ffm-web-23-6" />;
 
 export default Slide;

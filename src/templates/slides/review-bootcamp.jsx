@@ -6,11 +6,11 @@ import bootcampImg from "../../ions/images/graduation-2.jpg";
 import ImageText from "../image-text";
 
 const info = {
-	students: "9",
-	days: "60",
+	students: "17",
+	days: "130",
 	sessions: "59",
 	recapProjects: "6",
-	capstoneDays: "20",
+	capstoneDays: "50",
 };
 
 const Slide = () => (
@@ -19,7 +19,7 @@ const Slide = () => (
 		body={
 			<List>
 				<ListItem component="li">
-					<NemoText>{info.students}</NemoText> Students 🦭🦭🦭🦭🦭🦭🦭🦭🦭
+					<NemoText>{info.students}</NemoText> Students
 				</ListItem>
 				<ListItem component="li">
 					<NemoText>{info.days}</NemoText> Course days

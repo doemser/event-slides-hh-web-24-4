@@ -6,10 +6,10 @@ import graduationImg from "../../ions/images/graduation.jpg";
 import ImageText from "../image-text";
 
 const info = {
-	capstoneTeams: "3",
-	capstoneDays: "20",
-	pullRequests: "97",
-	commits: "681",
+	capstoneTeams: "4",
+	capstoneDays: "50",
+	pullRequests: "297",
+	commits: "2869",
 };
 
 const Slide = () => (

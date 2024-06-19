@@ -1,13 +1,12 @@
 import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
-import React from "react";
-// import React, { useEffect } from "react";
-//import useSound from "use-sound";
+import React, { useEffect } from "react";
+import useSound from "use-sound";
 import SpineLogo from "../../atoms/spine-logo";
 import Text from "../../atoms/text";
 import Layer from "../../organisms/layer";
 import Layout from "../../organisms/layout";
-// import soundLogoAudio from "../../ions/sounds/sound-logo.wav";
+import soundLogoAudio from "../../ions/sounds/sound-logo.wav";
 
 const dropHat = keyframes`
 	0% {
@@ -45,16 +44,16 @@ export const StyledHat = styled(Hat)`
 `;
 
 const Cover = ({ title, subtitle, graduate }) => {
-	// const [play, { stop }] = useSound(soundLogoAudio, { volume: 0.2 });
+	const [play, { stop }] = useSound(soundLogoAudio, { volume: 0.2 });
 
-	// useEffect(() => {
-	// 	if (graduate) {
-	// 		play();
-	// 	}
-	// 	return () => {
-	// 		stop();
-	// 	};
-	// }, [play, stop, graduate]);
+	useEffect(() => {
+		if (graduate) {
+			play();
+		}
+		return () => {
+			stop();
+		};
+	}, [play, stop, graduate]);
 
 	return (
 		<Layout>
