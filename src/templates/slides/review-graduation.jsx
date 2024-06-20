@@ -6,10 +6,10 @@ import graduationImg from "../../ions/images/graduation.jpg";
 import ImageText from "../image-text";
 
 const info = {
-	capstoneTeams: "4",
+	capstoneTeams: "2",
 	capstoneDays: "50",
-	pullRequests: "297",
-	commits: "2869",
+	pullRequests: "100",
+	commits: "602",
 };
 
 const Slide = () => (
@@ -18,16 +18,16 @@ const Slide = () => (
 		body={
 			<List>
 				<ListItem component="li">
-					<NemoText>{info.capstoneTeams}</NemoText> Capstone teams
+					<NemoText>{info.capstoneTeams}</NemoText> Capstone Teams
 				</ListItem>
 				<ListItem component="li">
-					<NemoText>{info.capstoneDays}</NemoText> Capstone days
+					<NemoText>{info.capstoneDays}</NemoText> Capstone Days
 				</ListItem>
 				<ListItem component="li">
-					<NemoText>{info.pullRequests}</NemoText> Git Hub Pull Requests
+					<NemoText>{info.pullRequests}</NemoText> Pull Requests
 				</ListItem>
 				<ListItem component="li">
-					<NemoText>{info.commits}</NemoText> Git Hub Project Commits
+					<NemoText>{info.commits}</NemoText> Commits
 				</ListItem>
 			</List>
 		}
