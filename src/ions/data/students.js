@@ -2,11 +2,11 @@ const students = [
 	{
 		// The ID is used to find images and videos
 		// ❗️
-		id: "clanPlan",
+		id: "dagobert",
 		// Name displayed on slide
-		app: "ClanPlan",
-		subTitle: "The Family Task Manager",
-		name: ["Mariia, ", "Paul, ", "Swetha"],
+		app: "DAGOBERT",
+		subTitle: "Budget App",
+		name: ["Christian, ", "Michael, ", "Nicholas, ", "Tia"],
 		// Optional, if set the Domain will be shown on the slide
 		// domain: "www.clanplan.org/",
 		// Will be printed as written here
@@ -14,38 +14,31 @@ const students = [
 			"React",
 			"Next.js",
 			"Styled Components",
-			"Node.js",
-			"Mongoose",
-			"MongoDB Atlas",
-			"NextAuth",
-			"Cloudinary",
-			"SWR",
-			"React Toastify",
-			"EmailJS",
-			"React Big Calendar",
-			"React Multiselect Dropdown",
+			"recharts",
+			"date-fns",
+			"use-local-storage-state",
 		],
 		// Optional
 		ci: {
 			themeColor: "#FFFFFF",
 			colors: {
-				primary: "#FFFFFF",
-				secondary: "#E6E4E4",
-				another: "#74E2F3",
+				primary: "#14B4FF",
+				secondary: "#FFC6F3",
+				another: "#B6E6FF",
 			},
 		},
-		commits: 103,
+		commits: 75,
 		pullRequests: 64,
 		// Currently, only mobile is supported
 		device: "mobile",
 	},
 	{
 		// The ID is used to find images and videos
-		id: "emotionTracker",
+		id: "plantsApp",
 		// Name displayed on slide
-		app: "What A Feeling",
-		subTitle: "Emotion Tracker",
-		name: ["Christof, ", "Jan, ", "Jana, ", "Sonja"],
+		app: "CROP IT",
+		subTitle: "Like it's hot",
+		name: ["Eva, ", "Philip, ", "Sabine"],
 		// Optional, if set the Domain will be shown on the slide
 		//domain: "www.we-and.me",
 		// Will be printed as written here
@@ -53,18 +46,51 @@ const students = [
 			"React",
 			"Next.js",
 			"Styled Components",
-			"Node.js",
 			"Mongoose",
 			"MongoDB Atlas",
 			"NextAuth",
+			"cloudinary",
 			"SWR",
-			"i18next",
-			"Plotly",
-			"Fuse.js",
-			"Hamburger React",
-			"React Day Picker",
-			"React Export Table",
-			"date-fns",
+			"formidable",
+			"use-local-storage-state",
+			"react-slick",
+		],
+		// Optional
+		ci: {
+			// Optional, used to fill the gap around the notch on certain devices
+			themeColor: "#79af6e",
+			// Optional, used for color-swatches on the slide
+			colors: {
+				// Keys can have any name
+				primary: "#79af6e",
+				bar: "#e62600",
+				secondary: "#f67b00",
+			},
+		},
+		commits: 682,
+		pullRequests: 23,
+		// Currently, only mobile is supported
+		device: "mobile",
+	},
+	{
+		// The ID is used to find images and videos
+		id: "survivalPets",
+		// Name displayed on slide
+		app: "Survival Pets",
+		subTitle: "Still alive?",
+		name: ["Alex, ", "Felix, ", "Johannes, ", "Jonas"],
+		// Optional, if set the Domain will be shown on the slide
+		//domain: "www.we-and.me",
+		// Will be printed as written here
+		techStack: [
+			"React",
+			"Next.js",
+			"Styled Components",
+			"Mongoose",
+			"MongoDB Atlas",
+			"SWR",
+			"use-local-storage-state",
+			"use-sound",
 		],
 		// Optional
 		ci: {
@@ -73,9 +99,10 @@ const students = [
 			// Optional, used for color-swatches on the slide
 			colors: {
 				// Keys can have any name
-				primary: "#322E44",
-				bar: "#743DC3",
-				secondary: "#443F5D",
+				also: "#90ee90",
+				primary: "#fce671",
+				bar: "#ffb628",
+				secondary: "#ff8660",
 			},
 		},
 		commits: 682,

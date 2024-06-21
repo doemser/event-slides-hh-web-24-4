@@ -6,8 +6,8 @@ import bootcampImg from "../../ions/images/graduation-2.jpg";
 import ImageText from "../image-text";
 
 const info = {
-	students: "7",
-	days: "130",
+	students: "14",
+	days: "60",
 	sessions: "60",
 	recapProjects: "6",
 };
